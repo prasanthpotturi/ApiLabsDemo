@@ -60,11 +60,11 @@ Existing API: https://www.googleapis.com/books/v1/volumes
 
 * Accept all the default values for the Virtual Host configuration then click Next.
 
-![Pass through](./media/proxy-wizard-4.png)
+![Virtual Host](./media/proxy-wizard-4.png)
 
 * Accept all the default values for the final configuration confirmation, then click Next.
 
-![Pass through](./media/proxy-wizard-5.png)
+![Review](./media/proxy-wizard-5.png)
 
 * When the confirmation displays, click on the proxy name link to open a detailed view of your API proxy.
 
