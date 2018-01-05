@@ -123,7 +123,12 @@ Existing API: https://www.googleapis.com/books/v1/volumes
 
 * Invoke API proxy by passing "?q=java" as query parameter
 
-* http://{yourHostName}/{your initials}-responsecachedemo?q=java. NOTE to pass query parameter "?q=java" in path suffix in your url
+```
+http://{yourHostName}/{your initials}-responsecachedemo?q=java. 
+
+NOTE to pass query parameter "?q=java" in path suffix in your url
+
+```
 
 ![Trace API](./media/responseCache_05.png)
 
