@@ -197,7 +197,9 @@ On examining the trace you can notice that flow hook [FH] is invoked from API pr
 
 # Summary
 
-In this lab we have built and tested shared flow by decoupling the security policies from the APi proxy. A shared flow can be developed and managed by a team responsible for broad company policies, then consumed in proxies by line-of-business teams building more specialized apps.
+In this lab we have built and tested flow host by decoupling the security policies from the APi proxy. 
+
+## NOTE: Shared flows attached via flow hooks execute at that position for every API proxy deployed to the proxy hook's environment. For this reason, the ability to use flow hooks is available only to administrators of an Apigee Edge org. As this would have wider impact in a environment.
 
 # References
 
