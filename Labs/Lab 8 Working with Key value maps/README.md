@@ -57,7 +57,7 @@ None
 
 ![Add Map Entry](./media/KVM_Snapshot-5.png)
 
-* Ket Value Map entries are masked with '*'
+* Key Value Map entries are masked with '*'
 
 ![Add Map Entry](./media/KVM_Snapshot-6.png)
 
