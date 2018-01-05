@@ -132,7 +132,7 @@ NOTE to pass query parameter "?q=java" in path suffix in your url
 
 ![Trace API](./media/responseCache_05.png)
 
-In the above trace you can notice that after the cache expire the call went to backend retrieved data and persited that in cache for subsequent calls
+In the above trace you can notice that after the cache expiry, call went to backend to retrieve data and got persisted in cache for subsequent calls
 
 # Summary
 
