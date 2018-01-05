@@ -40,15 +40,15 @@ None
 
 * Create new key value map with name 'apieaterycredentials' and click 'encrypted' check box
 
-![Add New KVM](./media/KVM_Snapshot-2.jpg)
+![Add New KVM](./media/KVM_Snapshot-2.png)
 
 * Add new map entry with name 'username' and value 'foundationUser'
 
-![Add Map Entry](./media/KVM_Snapshot-3.jpg)
+![Add Map Entry](./media/KVM_Snapshot-3.png)
 
 * Add new map entry name 'password' with value 'Test1234'
 
-![Add Map Entry](./media/KVM_Snapshot-4.jpg)
+![Add Map Entry](./media/KVM_Snapshot-4.png)
 
 ## Create a new API Proxy
 
@@ -62,11 +62,11 @@ None
 
 * In the new proxy creation wizard, select the Reverse Proxy option and then click on Next
 
-![Reverse Proxy](./media/KVM_Snapshot-8.jpg)
+![Reverse Proxy](./media/KVM_Snapshot-8.png)
 
 * Enter values for Proxy Name, Proxy Base Path and Existing API. Click Next.
 
-![Reverse Proxy](./media/KVM_Snapshot-9.jpg)
+![Reverse Proxy](./media/KVM_Snapshot-9.png)
 
 ```
 Proxy Name: {your initials}-apieaterydemo
@@ -76,32 +76,32 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 * Select the pass through option for Authorization then click Next.
 
-![Pass through](./media/KVM-Snapshot-10.jpg)
+![Pass through](./media/KVM-Snapshot-10.png)
 
 * Accept all the default values for the Virtual Host configuration then click Next.
 
-![Pass through](./media/KVM_Snapshot-11.jpg)
+![Pass through](./media/KVM_Snapshot-11.png)
 
 * Accept all the default values for the final configuration confirmation, then click Next.
 
-![Pass through](./media/KVM_Snapshot-12.jpg)
+![Pass through](./media/KVM_Snapshot-12.png)
 
 * When the confirmation displays, click on the proxy name link to open a detailed view of your API proxy.
 
-![Confirmation](./media/KVM_Snapshot-13.jpg)
+![Confirmation](./media/KVM_Snapshot-13.png)
 
 ## Retrive KVM in API proxy
 
 * Click on the develop tab on api proxy and click on default under proxy endpoint. And select KVM policy from the drop down "ME-lookupClientCredentials" then click on Add button as show below
 
-![KVM Policy](./media/KVM_Snapshot-14.jpg)
+![KVM Policy](./media/KVM_Snapshot-14.png)
 
 * Change the name of Map Identifier to 'apieaterycredentials'
 
-![KVM Policy](./media/KVM_Snapshot-15.jpg)
+![KVM Policy](./media/KVM_Snapshot-15.png)
 
 * Extract map value from key value map 'apieaterycredentials' and assing it to local variable. IMP NOTE: If a key value map is encrypted, retrieve values by using the "private." prefix in the assignTo attribute value
-![KVM Policy](./media/KVM_Snapshot-16.jpg)
+![KVM Policy](./media/KVM_Snapshot-16.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -128,11 +128,11 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 * In TARGET ENDPOINT PRE-FLOW Add Basic Authentication policy "BA-backendAuthentication". 
 
-![Basic Authentication Policy](./media/KVM_Snapshot-17.jpg)
+![Basic Authentication Policy](./media/KVM_Snapshot-17.png)
 
 * Refer KVM parameters "private.username" and "private.password", which we have retrived in previous step ME-lookupClientCredentials policy
 
-![Basic Authentication Policy](./media/KVM_Snapshot-18.jpg)
+![Basic Authentication Policy](./media/KVM_Snapshot-18.png)
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -150,11 +150,11 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 * Open the Trace Menu from the right hand side navigation bar then click on Start Trace Session
 
-![Trace API](./media/KVM_Snapshot-20.jpg)
+![Trace API](./media/KVM_Snapshot-20.png)
 
 * http://<yourHostName>/apieaterdemo/chefs. Note to add /chefs path suffix in your test url
 
-![Trace API](./media/KVM_Snapshot-21.jpg)
+![Trace API](./media/KVM_Snapshot-21.png)
 
 
 # Summary
