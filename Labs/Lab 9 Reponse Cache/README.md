@@ -84,7 +84,7 @@ Existing API: https://www.googleapis.com/books/v1/volumes
 
 ![ResponseCache Policy](./media/responseCache_03.png)
 
-* Update Timeoutinsec from default '3600' to '60', to notice the cache hit and cache expire scenarios
+* Update Timeoutinsec from default '3600' to '60', this is in order to notice the cache hit and cache expiry scenarios
 ![ResponseCache Policy](./media/responseCache_04.png)
 
 ```
