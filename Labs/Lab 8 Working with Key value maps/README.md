@@ -163,7 +163,7 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 ![Trace API](./media/KVM_Snapshot-20.png)
 
-* http://<yourHostName>/apieaterdemo/chefs. Note to add /chefs path suffix in your test url
+* http://{yourHostName}/{your initials}-apieaterydemo/chefs. NOTE to add "/chefs" path suffix in your url
 
 ![Trace API](./media/KVM_Snapshot-21.png)
 
