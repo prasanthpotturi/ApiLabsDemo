@@ -218,7 +218,7 @@ On examining the trace you can notice that flow callout is invoked from API prox
 
 # Summary
 
-This lab we have develope and tested shared flow by decoupling the security flow policies from the proxy flow. Also a shared flow can be developed and managed by a team responsible for broad company policies, then consumed in proxies by line-of-business teams building more specialized apps.
+In this lab we have built and tested shared flow by decoupling the security policies from the APi proxy. A shared flow can be developed and managed by a team responsible for broad company policies, then consumed in proxies by line-of-business teams building more specialized apps.
 
 # References
 
