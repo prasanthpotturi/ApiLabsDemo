@@ -41,14 +41,19 @@ None
 * Create new key value map with name 'apieaterycredentials' and click 'encrypted' check box
 
 ![Add New KVM](./media/KVM_Snapshot-2.png)
+![Add Map Entry](./media/KVM_Snapshot-3.png)
 
 * Add new map entry with name 'username' and value 'foundationUser'
 
-![Add Map Entry](./media/KVM_Snapshot-3.png)
+![Add Map Entry](./media/KVM_Snapshot-4.png)
 
 * Add new map entry name 'password' with value 'Test1234'
 
-![Add Map Entry](./media/KVM_Snapshot-4.png)
+![Add Map Entry](./media/KVM_Snapshot-5.png)
+
+* Ket Value Map entries are masked with '*'
+
+![Add Map Entry](./media/KVM_Snapshot-6.png)
 
 ## Create a new API Proxy
 
@@ -76,7 +81,7 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 * Select the pass through option for Authorization then click Next.
 
-![Pass through](./media/KVM-Snapshot-10.png)
+![Pass through](./media/KVM_Snapshot-10.png)
 
 * Accept all the default values for the Virtual Host configuration then click Next.
 
