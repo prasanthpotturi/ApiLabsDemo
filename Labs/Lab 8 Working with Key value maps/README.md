@@ -1,4 +1,4 @@
-# API Development : Using Routing Rules for Multiple Backends
+# API Development : Working with Key Value Maps
 
 *Duration : 30 mins*
 
@@ -6,7 +6,7 @@
 
 # Use case
 
-It's common for large companies to have multiple backend systems that provide duplicate functionality for certain sets of data. A common example is a company that, usually through mergers and acquisitions, has multiple customer, contract, or ordering systems. From an API perspective, it's desirable to mask the routing complexity from the end API consumer to make it appear as though the organization has single unified API for a given business function or data type. Therefore, it's helpful to have a way to conditionally route a request to a paticular backend based on information in the request.
+You want to store credentials, private keys, or tokens—like tokens for external services , credentials required to generate OAuth tokens, or private keys used in Java Callouts or JavaScript for encryption or JSON Web Token (JWT) signing. Instead of passing credentials, keys, or tokens in the request, or hard-coding them in your proxy logic, you can store them in a KVM (always encrypted) and dynamically retrieve them in calls to targets that require them.
 
 # How can Apigee Edge help?
 
@@ -36,7 +36,7 @@ None
 
 * Open Setting Menu, click on environment and select Key Value Map.
 
-![Environments-Key Value Maps](./media/KVM-Snapshot-0-1.jpg)
+![Environments-Key Value Maps](./media/KVM-Snapshot-0-1.png)
 
 * Create new key value map with name 'apieaterycredentials' and click 'encrypted' check box
 
