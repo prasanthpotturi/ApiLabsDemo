@@ -170,7 +170,7 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 # Summary
 
-This lab demonstrates how to use entrypted key value maps and basic authentication which invoking secured backends. By applying KVM you can use Apigee Edge to retrieve non-expiring data that shouldn't be hard-coded in your API proxy logic.
+This lab demonstrates how to use entrypted key value maps and basic authentication while invoking secured backends. By applying KVM you can use Apigee Edge to retrieve non-expiring data that shouldn't be hard-coded in your API proxy logic.
 
 # References
 
