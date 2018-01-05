@@ -36,7 +36,7 @@ None
 
 * Open Setting Menu, click on environment and select Key Value Map.
 
-![Environments-Key Value Maps](./media/KVM_Snapshot-0_1.jpg)
+![Environments-Key Value Maps](./media/KVM-Snapshot-0-1.jpg)
 
 * Create new key value map with name 'apieaterycredentials' and click 'encrypted' check box
 
@@ -76,7 +76,7 @@ Existing API: http://apigee-edu-prod.apigee.net:80/v1/apieatery
 
 * Select the pass through option for Authorization then click Next.
 
-![Pass through](./media/KVM_Snapshot-10.jpg)
+![Pass through](./media/KVM-Snapshot-10.jpg)
 
 * Accept all the default values for the Virtual Host configuration then click Next.
 
