@@ -29,7 +29,7 @@ None
 
 * Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI. 
 
-## Create a new API Proxy
+## Create a new Shared Flow
 
 * Open the Develop Menu from the left hand side navigation bar then click on the Shared Flow menu item.
 
@@ -65,7 +65,7 @@ None
 
 ![New step](./media/sharedFlow_5.png)
 
-* Updated "ME-LookupClientCredentials" properties as below to extract key value parameters from "apieaterycredentials" KVM
+* Update "ME-LookupClientCredentials" properties as below to extract key value parameters from "apieaterycredentials" KVM
 
 ![New step](./media/sharedFlow_8.png)
 
@@ -123,7 +123,7 @@ None
 ![New step](./media/sharedFlow_9.png)
 
 
-## Use Flow Callout policy in "apieaterydemo" API to call securityFlow
+## Use Flow Callout policy in "{your initials}-apieaterydemo" API to call securityFlow
 
 * Click on API Proxies and naviagate to "apieaterydemo" proxy and click in develop
 
@@ -187,16 +187,16 @@ None
 
 ![New step](./media/sharedFlow_10.png)
 
-## Update product that we have created earlier labs session, ref:Lab 4 API Security - Securing APIs with API Keys
+## Update product that we have created in earlier labs session, ref:Lab 4 API Security - Securing APIs with API Keys
 
-* Navigate to Publish--> Product and select the product which we have created in earlier labs session, ref:Lab 4 API Security - Securing APIs with API Keys
+* Navigate to Publish--> Product and select the product which we have created in earlier labs session
 ![New step](./media/sharedFlow_15.png)
 
 * Click on Edit button
 ![New step](./media/sharedFlow_15.png)
 
 
-* Add  {your initials}-apieaterdem to the apiproxy
+* Add  {your initials}-apieaterdem to the apiproxy and save
 ![New step](./media/sharedFlow_16.png)
 
 ## Test Apigee
@@ -207,14 +207,12 @@ None
 
 ![Start trace session](./media/start-trace-session.png)
 
-* Add a query parameter called zipcode with a value of 70909: `?zipcode=70909`
+* Now make another API call using your apikey and "/chefs" path suffix.
 
-![Send API Call](./media/trace-api-request.png)
-
-* Now make another API call using apikey and "/chefs" path suffix.
-
+```
 http://{{youHostName}/{your initials}-apieaterdemo/chefs?apikey=Wcq0S7AyPm6AcfTotWazH954TF3yCLG7
-
+```
+![Open trace tab](./media/sharedFlow_14.png)
 
 On examining the trace you can notice that flow callout is invoked from API proxy and shared flow verfied API key, extracted backend credentials.
 
