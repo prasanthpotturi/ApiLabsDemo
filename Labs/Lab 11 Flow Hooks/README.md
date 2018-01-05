@@ -26,7 +26,8 @@ None
 
 * Go to [https://apigee.com/edge](https://apigee.com/edge) and log in. This is the Edge management UI. 
 
-## Create a new Shared Flow, If this is already done as part of Lab 10: Shared flow then skip next section "Add shared flow to flowhooks"
+## Create a new Shared Flow
+## NOTE: If Shared Flow was already done as part of Lab 10: Shared flow then skip to next section "Add shared flow to flowhooks"
 
 * Open the Develop Menu from the left hand side navigation bar then click on the Shared Flow menu item.
 
