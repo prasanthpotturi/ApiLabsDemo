@@ -69,7 +69,7 @@ None
 
 * Click on the +Proxy button in the upper right corner of the API proxy list panel
 
-![New Proxy](./media/open-api-proxy-list.png)
+![New Proxy](./media/new-api-proxy.png)
 
 * In the new proxy creation wizard, select the Reverse Proxy option and then click on Next
 
