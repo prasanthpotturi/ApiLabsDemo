@@ -38,9 +38,15 @@ None
 
 ![Environments-Key Value Maps](./media/KVM-Snapshot-0-1.png)
 
+* Click in "+Key Value Map" on the left 
+
+![Environments-Key Value Maps](./media/KVM_add.png)
+
 * Create new key value map with name 'apieaterycredentials' and click 'encrypted' check box
 
 ![Add New KVM](./media/KVM_Snapshot-2.png)
+
+* You will notice a new KVM got created
 ![Add Map Entry](./media/KVM_Snapshot-3.png)
 
 * Add new map entry with name 'username' and value 'foundationUser'
