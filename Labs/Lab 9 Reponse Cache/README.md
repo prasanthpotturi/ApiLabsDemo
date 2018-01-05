@@ -80,7 +80,7 @@ Existing API: https://www.googleapis.com/books/v1/volumes
 
 ![ResponseCache Policy](./media/new-step-1.png)
 
-* select Reponse Cache policy from the drop down "TM-responseCache" then click on Add button as show below
+* select Reponse Cache policy from the drop down and name it as "TM-responseCache". Then click on Add button as show below
 
 ![ResponseCache Policy](./media/responseCache_03.png)
 
